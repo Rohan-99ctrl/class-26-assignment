@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Timeline and Post Management System</title>
+</head>
+<body>
+
+
+
+
+<header>
+    <div class="container">
+        <div style="display: flex;justify-content: space-around;align-items: center;" class="row">
+            <div id="brandWrapper" style="display: flex;justify-content: space-around;align-items: center;" class="col-md-3">
+                <a id="brand" href="#"><i class='bx bxl-facebook'></i></a>
+                <input type="text" placeholder="Search" class="form-control">
+            </div>
+
+            <div style="display: flex;justify-content: space-around;align-items: center;" id="centerNavIconWrapper" class="col-md-5">
+                <a href="#"><i class='bx bx-home' ></i></a>
+                <a href="#"><i class='bx bx-user-plus'></i></a>
+                <a href="#"><i class='bx bx-video'></i></a>
+                <a href="#"><i class='bx bx-group' ></i></a>
+            </div>
+
+            <div id="rightNavIconWrapper" style="display: flex;justify-content: space-around;align-items: center;" class="col-md-3">
+                <a href="#"><img id="profile" style="width: 40px;height: 40px;border-radius: 50%;object-fit: cover;" src="" alt=""></a>
+                <a href="#"><i class='bx bxl-messenger' ></i></a>
+                <a href="#"><i class='bx bxs-bell'></i></a>
+                <a href="#"><i class='bx bxs-down-arrow'></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container">
+    <div class="row mt-3">
+        <div style="display: flex;justify-content: space-around;align-items: center;" class="col-md-7 m-auto">
+            <div class="singleStoryBlock">
+                <img class="storyImg" src="" alt="">
+            </div>
+
+            <div class="singleStoryBlock">
+                <img class="storyImg1" src="" alt="">
+            </div>
+
+            <div class="singleStoryBlock">
+                <img class="storyImg2" src="" alt="">
+            </div>
+
+            <div class="singleStoryBlock">
+                <img class="storyImg3" src="" alt="">
+            </div>
+
+            <div class="singleStoryBlock">
+                <img class="storyImg4" src="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-5 m-auto postSecWrapper">
+            <div style="display: flex;justify-content: space-between;align-items: center;" class="mindWrapper">
+                <img style="width: 45px;height: 45px;border-radius: 50%;object-fit: cover;" id="myProfile" src="" alt="">
+                <a id="myMind" href="#myModal" data-bs-toggle="modal" data-bs-target="#myModal">What's on your mind "Rohan"?</a>
+            </div>
+
+            <div style="display: flex;justify-content: space-between;align-items: center;" class="streamWrapper">
+                <a href="#"><i style="color: #F4556F;" class='bx bxs-video-plus'></i> Live Video</a>
+                <a href="#"><i style="color: #58C472;" class='bx bx-images'></i> Photo/Video</a>
+                <a href="#"><i style="color: #C99F3E;" class='bx bx-happy-alt'></i> Your Activity</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mb-3">
+    <div id="postTimeline">
+        
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="notFound" class="col-md-4 m-auto mt-3 mb-3 text-center">
+            <h5 style="font-weight: 900;">No more posts</h5>
+            <p>Add more friends to see more posts in your Feed.</p>
+            <button class="btn btn-primary btn-sm">Find Friends</button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div style="background-color: #242526;border-radius: 10px;" class="modal-content">
+  
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <div style="display: flex;align-items: center;justify-content: space-between;color: #9e9e9e;" class="mb-3">
+                    <h3>Create Post</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="doPostProfileWrapper mb-3">
+                    <div style="width: 250px;display: flex;align-items: center;">
+                        <img style="width: 45px;height: 45px;border-radius: 50%;object-fit: cover;margin-right: 12px;" src="https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/277468078_110144304979004_4756080285768929227_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=S3-lFadEV3YAX9flm1V&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT9xQbR-DQX77ooA9_7WAdJjIRHGalDWafUjljHEpW5l-A&oe=6249DC62" alt="">
+                        <div>
+                            <p>Rohan Mostofa</p>
+                            <a><i class='bx bx-world'></i> Public</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="submitPost" method="POST">
+                    <input name="name" type="text" class="form-control mb-3 mt-4" placeholder="Auth Name">
+                    <input name="uPhoto" type="text" class="form-control mb-3" placeholder="Auth Photo">
+                    <textarea name="pContent" id="" cols="15" rows="5" class="form-control mb-3" placeholder="Post Content"></textarea>
+                    <input name="pPhoto" type="text" class="form-control mb-3" placeholder="Post Photo">
+                    <input type="submit" class="btn btn-primary w-100 mb-2" value="Post">
+                </form>
+
+                <div id="alertMsg">
+
+                </div>
+
+            </div>
+  
+        </div>
+    </div>
+  </div>
+
+
+    
+</body>
+</html>

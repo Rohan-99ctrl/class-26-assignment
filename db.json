@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "আশরাফুল হক",
+      "userPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/271547251_10221668395318941_1938174359673295619_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ytswTIMJHmgAX8Lytby&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT_eWGpmiW0nSLq0CgwDn7SbaxI7OiUriuWgYWJyw1pJwQ&oe=6249ED14",
+      "content": "নাটোরের এক রমনীর রুপে মুগ্ধ হয়ে জীবনানন্দ দাস লিখেছিলেন নাটরের বনলতা সেন ওনারে কয়েকটা নাটরের কাচা গোল্লা ভাল কইরা খাওয়াইয়া দেওয়া দরকার ছিল তাহলে কাচা গোল্লার প্রেমেও পরে যেতেন বলে আমার ধারনা। শুভ কে অনেক ধন্যবাদ সারাদিন জার্নি করে নাটোর থেকে কাচাগোল্লা নিয়ে আসার জন্য",
+      "postPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t1.6435-9/50084439_10213955909031604_3074789867712937984_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=hE19_2O2KKIAX_1UIMI&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT-F_7NRRNHiStVckDVYsqhnDEPOuA7nNgI0KrV1pax_JA&oe=626A86D1"
+    },
+    {
+      "id": 2,
+      "name": "Sheikh Mohammad Abdullah",
+      "userPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/271589395_293222642826241_2341717064163235316_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=s0SHkBIigfEAX_uYVGC&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT_47FZaANcIARsCQkLzsAsT5yoLKerCuqHMKSge4YPgYg&oe=624A47A7",
+      "content": "মাঝে মাঝে কঠিন পরিস্থিতির সম্মুখীন, হওয়া অনেক ভালো.....! বিশ্বাস ঘাতক স্বার্থপর মানুষ, সহজে চেনা যায়...!",
+      "postPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/276176122_330688642412974_9080129134600918304_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ydvrLyb3e3QAX9X5VTJ&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT9DrntCOrRF-mhLKsyyYwWkX-iVPyYEak09VCMObYHdEw&oe=62495DD1"
+    },
+    {
+      "id": 3,
+      "name": "Zonayed Ahamad",
+      "userPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/271709276_700456181364022_5440642696709932769_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ChlxShm0YYQAX_DJlsA&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT96BB4kzJCMLIr-OR_PCmMDS8HxOUuNtRQdhYZGezn8DA&oe=624A3B0A",
+      "content": "No matter how big a nation is, it is no stronger than its weakest people, and as long as you keep a person down, some part of you has to be down there to hold him down, so it means you cannot soar as you might otherwise",
+      "postPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/276995636_749815443094762_8120236388905694532_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=KoGuaOYOk1cAX_H0OS6&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT-8Y5Wg2Vix_HJHLWpmESQAk8mGVYo32RxENWE7zXrOUw&oe=6249EDD5"
+    },
+    {
+      "id": 4,
+      "name": "Rohan Mostofa",
+      "userPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/277468078_110144304979004_4756080285768929227_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=S3-lFadEV3YAX8oeup4&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT_xB5eAj2ICkFkMNeVgnJra4-3-R8fq7HfKI9yKYffJ8Q&oe=6249DC62",
+      "content": "😇😃😃",
+      "postPhoto": "https://static.javatpoint.com/images/javascript/javascript_logo.png"
+    },
+    {
+      "name": "Sheikh Muhammad Abdullah",
+      "userPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/271589395_293222642826241_2341717064163235316_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=s0SHkBIigfEAX8YsA7C&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT-_Ayo47TXgZBWDkKKBG4pG3YQEzshE6l-Wcat3AvuEhw&oe=624C41E7",
+      "content": "মিজানুর রহমান আজহারী বলেছিলো বোরকা পরে হাত খোলা রাখা যাবে, তখন এসব পীর-রা তার বিরুদ্ধে মিছিল করেছিলো,, এখন পীর সাহেব বোরকা ছাড়া মহিলাদের নবীন বরণ করে। এসব টাটকা ভন্ডদের বিরুদ্ধে জুতা মিছিল করা দরকার,,,, এর পর ও কিছু অন্ধ মুরিদ-রা বাজে কমেন্ট করবে,,,আল্লাহ সবাইকে হেদায়েত দান করুন",
+      "postPhoto": "https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-6/277104351_336655745149597_6214989072535444893_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=oY0ihdHiaNEAX9lFGgZ&_nc_ht=scontent.fjsr6-1.fna&oh=00_AT9rrmte-9vDwyI4UXg4_0njcU7kLaz_lT3NUR5N8QS8MQ&oe=624C5421",
+      "id": 7
+    }
+  ]
+}

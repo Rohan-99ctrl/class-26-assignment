@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Mono:wght@500&family=Lobster&family=Orbitron:wght@900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+:root{
+    --body-background: #18191A;
+    --content-color : #c7c7c7;
+    --single-block-background: #242526;
+    --nav-background: #242526;
+}
+
+body{
+    background-color: var(--body-background);
+    font-family: poppins;
+}
+
+header{
+    background-color: var(--nav-background);
+    padding: 7px 0px;
+    border-bottom: 2px solid orangered;
+}
+
+a#brand{
+    width: 61px;
+    height: 45px;
+    text-align: center;
+    background-color: #1298F6;
+    border-radius: 30%;
+    text-decoration: none;
+    color: #c1e5ff;
+    margin-right: 1rem;
+    display: block;
+}
+
+a#brand i{
+    font-size: 35px;
+    padding: 5px 0px;
+}
+
+div#brandWrapper input{
+    padding: 10px 22px;
+    background-color: #444444;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+}
+
+div#centerNavIconWrapper a{
+    width: 103px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(207, 207, 207);
+    transition: all 0.3s;
+}
+
+div#centerNavIconWrapper a:hover{
+    color: white;
+    background-color: #444444;
+}
+
+div#centerNavIconWrapper a i{
+    padding: 9px 0px;
+    font-size: 25px;
+}
+
+div#rightNavIconWrapper a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #444444;
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    display: block;
+    transition: all 0.3s;
+}
+
+div#rightNavIconWrapper a:hover{
+    background-color: #555555;
+}
+
+div#rightNavIconWrapper a i{
+    font-size: 23px;
+    padding: 9px 0px;
+}
+
+div.singleStoryBlock{
+    width: 120px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+div.singleStoryBlock img{
+    width: 100%;
+    height: 100%;
+}
+
+div.postSecWrapper{
+    padding: 13px;
+    background-color: var(--single-block-background);
+    border-radius: 10px;
+}
+
+div.mindWrapper{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(70, 70, 70);
+}
+
+div.mindWrapper a#myMind{
+    padding: 10px 15px;
+    width: 85%;
+    border-radius: 100px;
+    background-color: #444444;
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+div.mindWrapper a#myMind:hover{
+    background-color: #555555;
+}
+
+div.streamWrapper a{
+    width: 143px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+div.streamWrapper a:hover{
+    background-color: #444444;
+}
+
+div.streamWrapper a i{
+    font-size: 30px;
+}
+
+div.postItem{
+    padding: 15px 0px;
+    background-color: var(--single-block-background);
+    border-radius: 10px;
+}
+
+div.postProfileWrapper{
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.postProfileWrapper span{
+    position: relative;
+}
+
+div.postProfileWrapper span a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+div.postProfileWrapper a:hover{
+    background-color: #444444;
+}
+
+div.postProfileWrapper a i{
+    font-size: 25px;
+    padding: 8px 0px;
+}
+
+div.postProfileWrapper div div{
+    margin-left: 11px;
+}
+
+div.postProfileWrapper div div p{
+    margin-bottom: -4px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(212, 212, 212);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.postProfileWrapper div div span{
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+}
+
+div.postText{
+    padding: 0px 15px;
+}
+div.postText p{
+    color: rgb(185, 185, 185);
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+img.images{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+div.reactionWrapper{
+    padding: 0px 15px;
+}
+
+div.reactionWrapper div a{
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    color: gray;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.reactionWrapper div a:hover{
+    color: white;
+    background-color: #444444;
+}
+
+div.reactionWrapper div a i{
+    padding: 6px 0px;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+div#notFound{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #242526;
+    padding: 25px 15px;
+    color: gray;
+    border-radius: 10px;
+}
+
+div.doPostProfileWrapper div div p{
+    margin-bottom: -2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(212, 212, 212);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.doPostProfileWrapper div div a{
+    font-weight: 300;
+    font-size: 13px;
+    font-weight: 500;
+    color: white !important;
+    border-radius: 5px;
+    background-color: #444444;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+div.doPostProfileWrapper div div a i{
+    margin-right: 3px;
+    font-size: 12px;
+    /* padding: 5px 0px; */
+}
+
+form#submitPost input[type="text"]{
+    background-color: #555555;
+    border: 1px solid #00fff2;
+    color: white;
+}
+form#submitPost input::placeholder{
+    color: #c1e5ff;
+}
+
+form#submitPost textarea{
+    background-color: #555555;
+    border: 1px solid #00fff2;
+    color: white;
+}
+form#submitPost textarea::placeholder{
+    color: #c1e5ff;
+}
+
+/* post dropdown design */
+
+ul.postSettingWrapper{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #444444;
+    border-radius: 10px;
+    position: absolute;
+    top: 10;
+    left: 52;
+    padding: 15px 0px;
+    transition: all 0.3s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* ul.postSettingWrapper:hover{
+    pointer-events: auto;
+    opacity: 1;
+} */
+
+ul.postSettingWrapper.active{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+ul.postSettingWrapper li a{
+    display: block;
+    padding: 10px 15px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+ul.postSettingWrapper li a:hover{
+    background-color: #555555;
+    border-radius: 0px;
+}
+
+ul.postSettingWrapper li a:active{
+    background-color: red;
+}
+
+
